@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-B" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INSCRIPCIONES senati</title>
+    <link rel="shortcut icon" href="img/senati.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="left-imagen">
+            <img src="img/imagen.jpg" alt="">
+        </div>
+        <div class="right-formulario">
+            <h1>INSCRIPCIONES 2024</h1>
+            <form class="caja-formulario">
+                <div class="caja-form-1">
+                    <label> nombres : </label>
+                    <input type="text" class="formControl" required="" placeholder="escribe su nombre">
+                </div>
+                <div class="caja-form-2">
+                    <label> apellido :</label>
+                    <input type="text" class="formControl" required="" placeholder="escribe su apellido">  
+                </div>
+                <div class="caja-form-3">
+                    <label> tipos de documentos :</label>
+                    <select  required=""class="formControl formControl-select">
+                        <option selected> seleccione el tipo de documento</option>
+                        <option>carnet de extrangeria</option>
+                        <option>DNI</option>
+                    </select>
+                </div>
+                <div class="caja-form-4">
+                    <label> numero de documentos: </label>
+                    <input type="text" class="formControl" required="" placeholder=" documentos ">
+
+                </div>
+                <div class="caja-form-5">
+                    <label> fecha de nacimiento: </label>
+                    <input type="date" class="formControl" required="" placeholder=" fecha de nacimiento ">
+                </div>
+                <div class="caja-form-6">
+                    <label> celular : </label>
+                    <input type="text" class="formControl" required="" placeholder=" celular ">
+                </div>
+                <div class="caja-form-7">
+                    <label> direccion : </label>
+                    <input type="text" class="formControl" required="" placeholder=" direccion ">
+                </div>
+                <div class="caja-form-8">
+                    <label> E-mail : </label>
+                    <input type="text" class="formControl" required="" placeholder=" correo ">
+                </div>
+                <div class="caja-form-9">
+                    <label> carrera : </label>
+                    <select  required=""class="formControl formControl-select">
+                        
+                            <option selected>Seleccione la carrera</option>
+                            <option>Administración de Empresas</option>
+                            <option>Diseño Gráfico Digital</option>
+                            <option>Diseño y Gestión de la Moda</option>
+                            <option>Electricidad Industrial</option>
+                            <option>Guía Oficial de Turismo</option>
+                            <option>Ingeniería de Software con Inteligencia Artificial</option>
+                            <option>Mecánico Automotriz</option>
+                            <option>Mecánico de Motores Menores</option>
+                            <option>Redes y Seguridad Informática</option>
+                            <option>Seguridad Ind y Prev de Riesgo</option>
+                            <option>Soldador Universal</option>
+                        
+                    </select>
+                </div>
+                <div class="caja-form-10">
+                    <label> Mensajes : </label>
+                    <textarea placeholder="Escribe algun detalle" 
+                    class="formControl"
+                    required="" style="height: 100px; width:98%;"></textarea>
+                </div>
+                <div class="caja-form-11">
+                    <label class="calificacion-label">¿ cual es tu nivel de interes ?</label>
+                    <div class="stars">
+                         <input  id="radio1" type="radio" name="star" value="5">
+                         <label for="radio1">★</label>
+                         <input  id="radio2" type="radio" name="star" value="4">
+                         <label for="radio2">★</label>
+                         <input  id="radio3" type="radio" name="star" value="3">
+                         <label for="radio3">★</label>
+                         <input  id="radio4" type="radio" name="star" value="2">
+                         <label for="radio4">★</label>
+                         <input  id="radio5" type="radio" name="star" value="1">
+                         <label for="radio5">★</label> 
+                    </div>
+                </div>
+                <div class="caja-form-buton">
+                    <button type="submit" class="boton btnEnviar">Enviar</button>
+                    <button type="reset" class="boton btnResetear">Resetear</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
